@@ -1,0 +1,35 @@
+/* Ar-Royyan Custom Styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.arabic-font {
+    font-family: 'Amiri', serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8DA38B;
+    border-radius: 9999px;
+}
+
+@keyframes pulse-slow {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 3s infinite ease-in-out;
+}
